@@ -1,0 +1,98 @@
+/***
+ * BxSlider v4.2.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ ***/
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {
+  	position: relative;
+  	margin: 0 auto 60px;
+  	padding: 0;
+  	*zoom: 1;
+  	-ms-touch-action: pan-y;
+  	touch-action: pan-y;
+}
+.bx-wrapper img {
+  	display: block;
+  	width: 100%;
+  	height: auto;
+  	padding: 25px 0;
+}
+.bxslider {
+  	margin: 0;
+  	padding: 0;
+}
+ul.bxslider {
+  	list-style: none;
+}
+.bx-viewport {
+  	/*fix other elements on the page moving (on Chrome)*/
+  	-webkit-transform: translate(0);
+}
+/** THEME
+===================================*/
+.bx-wrapper {
+    width: 70%;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  	position: absolute;
+  	bottom: -30px;
+  	width: 100%;
+}
+/* PAGER */
+.bx-pager {
+	  position: absolute;
+  	text-align: center;
+  	width: 50%;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  	background: #D6D6D6;
+  	border-radius: 13px;
+  	display: block;
+  	height: 13px;
+  	margin: 0 5px;
+  	outline: 0;
+  	width: 13px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #1B1947;
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  
+}
+.bx-wrapper .bx-pager-item {
+  font-size: 0;
+  line-height: 0;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-controls-direction a {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+.bx-wrapper img {
+  max-width: 80%;
+  padding: 25px 10%;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.bx-wrapper img {
+  max-width: 70%;
+  padding: 25px 15% 15px;
+}
+}

@@ -1,0 +1,325 @@
+@import url(http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end CSS reset */
+
+
+body {
+	width: 100%;
+}
+
+p, li {
+	font-family: 'Asap', sans-serif;
+	font-weight: 400;
+}
+
+.slide{
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/*--- FOOTER ---*/
+footer {
+	background-color: #1B1947;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer p {
+	color: white;
+	font-size: .80em;
+	line-height: 1.6em;	
+}
+
+#footer-line {
+	border-top: 2px solid white;
+	margin: 25px 40%;
+}
+
+.icon-ad-logo, .icon-illinois-logo  {
+	margin-left: -40px;
+}
+
+.icon-ad-logo:before { 
+	content: '\e800';
+	color: white;
+	font-size: 2.5em;
+} /* '' */
+
+.icon-illinois-logo:before { 
+	content: '\e801';
+	color: white;
+	font-size: 2.5em;
+} /* '' */
+
+
+.icons{
+	display: inline-block;
+}
+
+.the-icons{
+ 	float: left;
+}
+
+/*---INDEX---*/
+#greetings{
+	padding: 60px 10%;
+}
+
+#greetings h3, #ad-statement h3 {
+	color: #7139AA;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.3em;
+	font-weight: 300;
+	letter-spacing: .03em;
+	line-height: 1.2em;
+	margin-bottom: 25px; 
+}
+
+#greetings p {
+	font-family: 'Asap', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+.header-bold {
+	font-weight: 700;
+}
+
+#p-bold {
+	color: #1D1A4D;
+	font-size: .90em;
+	font-weight: bold;
+}
+
+#title { 
+	font-size: .90em;
+}
+
+
+#class h3 {
+	color: #D15AE0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.3em;
+	font-weight: 300;
+	letter-spacing: .03em;
+	line-height: 1.2em;
+	padding: 0 10%;
+}
+
+
+#class-list {
+	padding: 75px 10%;
+  	-webkit-column-count: 2;
+	-moz-column-count: 2;
+    column-count: 2;
+    font-size: .88em;
+}
+
+#class-list .track {
+	letter-spacing: -.05em;
+	
+}
+
+#class-list li {
+	color: white;
+	line-height: 1.6em;
+}
+
+#about {
+	padding: 75px 10%;
+	line-height: 1.6em;
+}
+
+#ad-statement p {
+	font-size: 1em;
+	line-height: 1.7em;
+	padding-bottom: 15px;
+}
+
+
+/*---HERO---*/
+.index {
+	/*background:url(../images/major-hero4.png) top center no-repeat;* 
+	/*padding: 12em 0;*/
+	/*padding: 0;*/
+	/*height: 768px;*/
+	/*text-align:center;*/
+}
+
+#bfa_type {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: table;
+	width: 100%;
+}
+
+#holder {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#holder img {
+	width: 50%;
+	height: auto;
+	max-width: 330px;
+	margin-top: 70px;
+}
+
+
+/*---MEDIA QUERIES---*/
+@media only screen and (min-width: 580px) {
+	#class-list {
+	padding: 0 12% 75px;
+  	-webkit-column-count: 2;
+	-moz-column-count: 2;
+    column-count: 2;
+    font-size: 1em;
+}
+}
+
+@media only screen and (min-width: 768px) {
+#greetings p {
+	font-size: 1.35em;
+	line-height: 1.7em;
+}
+ 
+#class h3 {
+	padding: 0 12% 25px;
+}
+
+#class-list li {
+	line-height: 1.8em;
+}
+
+#ad-statement p {
+	font-size: 1.2em;
+	line-height: 1.9em;
+}
+}
+
+
+
+@media only screen and (min-width: 850px) {
+#greetings, #about{
+	padding: 75px 12%;
+}
+
+#class h3 {
+	padding: 50px 12% 25px;
+	text-align: center;
+}
+
+#ad-statement h3 {
+	text-align:center; 
+}
+
+#class-list {
+	padding: 0 12% 75px;
+  	-webkit-column-count: 3;
+	-moz-column-count: 3;
+    column-count: 3;
+    font-size: 1em;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+#greetings, #about{
+	padding: 90px 15%;
+}
+
+
+
+#greetings h3, #class h3, #ad-statement h3{
+	font-size: 3em;
+}
+
+
+#class h3 {
+	padding: 0 15% 30px;
+}
+
+
+#class-list {
+	padding: 0 15% 75px;
+  	-webkit-column-count: 4;
+	-moz-column-count: 4;
+    column-count: 4;
+    font-size: 1em;
+}
+
+#class-list li {
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+
+}
+
+
+
