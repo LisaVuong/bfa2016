@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/jquery.bxslider.css">
         <link rel="stylesheet" href="fonts/css/fontello.css">
+        <link rel="stylesheet" href="css/navigation.css">
        
        	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -22,6 +23,7 @@
   		<script src="js/jquery.bxslider.js"></script>
   		<script src='js/smooth-scroll.js'></script>
   		<script src="js/scroll.js"></script>
+  		<script src="js/navigation.js"></script>
   		
   		 <!--Parallax-->
         <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
@@ -31,49 +33,21 @@
 		
     </head>
     <body>	
-			<div id="top-nav">
-				<div id="full-menu-container">
-					<a href="index.html"><div id="brand" class="hidden-sm"></div></a>
-					<ul class="hidden-sm" id="full-menu">
-						<li><a href="arteducation.html" id="active">Art&nbsp;Education</a></li>
-						<li><a href="arthistory.html">Art&nbsp;History</a></li>
-						<!-- <li><a href="ceramics.html">Ceramics</a></li> -->
-						<li><a href="graphicdesign.html">Graphic&nbsp;Design</a></li>
-						<li><a href="industrialdesign.html">Industrial&nbsp;Design</a></li>
-						<li><a href="metals.html">Metals</a></li>
-						<li><a href="newmedia.html">New&nbsp;Media</a></li>
-						<li><a href="painting.html">Painting</a></li>
-						<li><a href="photography.html">Photography</a></li>
-						<li><a href="sculpture.html">Sculpture</a></li>
-					</ul>
-				</div>
-				<div id="bar-full" class="hidden-sm"></div>
-
-				<!-- Mobile Navigation -->
-				<nav class="clearfix hidden-lg" id="top-menu-nav">
-				<ul class="clearfix" id="menu-2-col">
-					<li><a href="arteducation.html">Art&nbsp;Education</a></li>
-					<li><a href="arthistory.html">Art&nbsp;History</a></li>
-					<!-- <li><a href="ceramics.html">Ceramics</a></li> -->
-					<li><a href="graphicdesign.html">Graphic&nbsp;Design</a></li>
-					<li><a href="industrialdesign.html">Industrial&nbsp;Design</a></li>
-					<li><a href="metals.html">Metals</a></li>
-					<li><a href="newmedia.html">New&nbsp;Media</a></li>
-					<li><a href="painting.html">Painting</a></li>
-					<li><a href="photography.html">Photography</a></li>
-					<li><a href="sculpture.html">Sculpture</a></li>
-				</ul>
-					
-					<div id="bar" class="hidden-lg">
-						<div id="pull">
-							<span id="menu" class="hidden-lg">Menu</span>
-							<a href="index.html"><div id="brand-sm" class="hidden-lg"></div></a>
-						</div>
-					</div>
-					
-				</nav>
-			</div> <!-- #top-nav -->
-			<!-- End Mobile Navigation -->
+			<div class="container"> <!--nav bar-->
+		    <ul class="nav-bar">
+		      <li><a id="nav-home" href="index.html">2016 BFA</a></li>
+		      <li><a class="active-link" href="arteducation.html">Art Education</a></li>
+		      <li><a href="ceramics.html">Ceramics</a></li>
+		      <li><a href="graphicdesign.html">Graphic Design</a></li>
+		      <li><a href="newmedia.html">New Media</a></li>
+		      <li><a href="painting.html">Painting</a></li>
+		      <li><a href="arthistory.html">Art History</a></li>
+		      <li><a href="industrialdesign.html">Industrial Design</a></li>
+		      <li><a href="scultpture.html">Sculpture</a></li>
+		      <li><a href="metals.html">Metals</a></li>
+		      <li><a href="photography.html">Photography</a></li>
+		    </ul>
+		</div>	
 			
 		<div class="slide ae" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
@@ -81,152 +55,171 @@
 				<div id="ae"></div>
 				<h1 id="major-id">Art Education</h1>
 				<p>2015 Graduates</p>
+				<div class="line-divider"></div><!-- .line-divider -->
+				<div class="container clearfix">
+			<div id="major-graduates">
+			<ul>
+				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#bibula">Taylor Bibula</a></li>
+				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#borop">Madison Borop</a></li>
+				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#fu">Shannon Fu</a></li>
+				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#kim">Brooke Kimn</a></li>
+				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#konzack">Alexandra Konczak</a></li>
+			</ul>
+		</div><!-- #major-graduates -->
 			</div>  <!-- #hero --> 
 		</div>
 	</div>
-		
-		<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-			<div id="major-graduates">
-			<ul>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#bolano">Carolina Bolaño</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#fiedler">Emily Fiedler</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#gaffey">Kate Gaffey</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#gleason">Erin Gleason</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#kerulis">Kelly Kerulis</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#lenz">Brienne Lenz</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#lovell">Angela Lovell</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#makol">Suzanne Makol</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#morimoto">Naomi Morimoto</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#roman">Constantin Roman</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#scott">Camille Scott</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#smith">Adam Smith</a></li>
-				<li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="#swiertz">Megan Swiertz</a></li>
-			</ul>
-		</div><!-- #major-graduates -->
-		
+	</div>
 	
-		<div class="line-divider"></div><!-- .line-divider -->
+		
 		
 		<div id="gallery">
-			<div class="student" id="bolano">
+			<div class="student" id="bibula">
 				<div class="student-name">
-					<h3><span class="student-first">Carolina</span> Bolaño</h3>
+					<h3>Taylor Bibula</h3>
 				</div><!-- .student-name -->
 				<ul class="bxslider">
 	  				<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/gd/bolano_carolina_1.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Bibula_Taylor_1.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Kasteel Identity Re-design</em></p>
-						<p>9.75 in × 2.25 in</p>
-						<p>Bottle and etched wine glass</p></li>
+	  					<p><em>Sister</em></p>
+	  					<p>11in x 4in</p>
+						<p>Mixed Media</p>
+					</li>
 	  				<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/gd/bolano_carolina_2.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Bibula_Taylor_2.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Silence</em></p>
-						<p>9 in x 6 in</p>
-						<p>Photography</p></li>
+	  					<p><em>The Price of Health</em></p>
+						<p>18in x 20in</p>
+						<p>Print</p>
+					</li>
 	  				<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/gd/bolano_carolina_3.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Bibula_Taylor_3.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Gendered Lines</em></p>
-						<p>24 in x 36 in</p>
-						<p>Oil on canvas</p></li>
+	  					<p><em>Childhood Memories</em></p>
+						<p>18in x 20n</p>
+						<p>Mixed Media</p></li>
 				</ul>
 			</div><!-- .student -->
 			
-			<div class="student" id="fiedler">
+			<div class="student" id="borop">
 				<div class="student-name" >
-					<h3><span class="student-first">Emily</span> Fiedler</h3>
+					<h3>Madison Borop</h3>
 				</div><!-- .student-name -->
 			<ul class="bxslider">
   				<li>
   					<div class="img-container">
-  						<img src="images/arted/fiedler_emily_1.jpg" class="vertical" alt=""/>
+  						<img class="vertical" src="images/ae/Borop_Madison_1.jpg" alt=""/>
   					</div>
-  					<p><em>Self Portrait Relic</em></p>
-					<p>19 in x 24 in</p>
-					<p>Acrylic paint, watercolor, marker</p></li>
+  					<p><em>Untitled</em></p>
+  					<p>9in x 12in</p>
+					<p>Acrylic on Canvas Board</p>
+				</li>
   				<li>
 					<div class="img-container">
-  						<img src="images/arted/fiedler_emily_2.jpg" alt=""/>
+  						<img class="vertical" src="images/ae/Borop_Madison_2.jpg" alt=""/>
   					</div>
-  					<p><em>Jill</em></p>
-					<p>40 in x 34 in</p>
-					<p>Digital photography</p></li>
+  					<p><em>Masque of the Black Death</em></p>
+  					<p>7in x 7in</p>
+					<p>Intaglio on Paper</p>
+				</li>
+				<li>
+					<div class="img-container">
+  						<img class="vertical" src="images/ae/Borop_Madison_3.jpg" alt=""/>
+  					</div>
+  					<p><em>Heron</em></p>
+					<p>Intaglio on Cotton, Cotton Thread, Wire</p>
+				</li>
 			</ul>
 			</div><!-- .student -->
 			
-			<div class="student" id="morimoto">
+			<div class="student" id="fu">
 				<div class="student-name">
-					<h3><span class="student-first">Naomi</span> Morimoto</h3>
+					<h3>Shannon Fu</h3>
 				</div><!-- .student-name -->
 				<ul class="bxslider">
 	  				<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/sculpture/morimoto_naomi_1.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Fu_Shannon_1.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Keepsakes</em></p>
-	  					<p>9 in x 9 in</p>
-						<p>String, wire, basswood</p></li>
+	  					<p><em>Emergence</em></p>
+	  					<p>2in x 1.8in</p>
+						<p>Ceramic</p>
+					</li>
+					<li>
+	  					<div class="img-container">
+	  						<img class="vertical" src="images/ae/Fu_Shannon_2.jpg" alt=""/>
+	  					</div>
+	  					<p><em>You Are What You Eat</em></p>
+	  					<p>1.7in x 2in</p>
+						<p>Photography</p>
+					</li>
+					<li>
+	  					<div class="img-container">
+	  						<img class="vertical" src="images/ae/Fu_Shannon_3.jpg" alt=""/>
+	  					</div>
+	  					<p><em>Hypoallergenic Kittens</em></p>
+	  					<p>1.2in x 11in</p>
+						<p>Mixed Media</p>
+					</li>
 				</ul>
 			</div><!-- .student -->
 			
-			<div class="student" id="smith">
+			<div class="student" id="kim">
 				<div class="student-name" >
-					<h3><span class="student-first">Adam</span> Smith</h3>
+					<h3>Brooke Kim</h3>
 				</div><!-- .student-name -->
 			<ul class="bxslider">
   				<li>
   					<div class="img-container">
-  						<img src="images/arted/smith_adam_1.jpg" class="vertical" alt=""/>
+  						<img src="images/ae/Kim_Brooke_2.jpg" class="vertical" alt=""/>
   					</div>
-  					<p><em>Monotype 1</em></p>
-					<p>18 in x 26 in</p>
-					<p>Ink and solvent on paper</p></li>
+  					<p><em>Here I Am, Send Me</em></p>
+					<p>18in x 14in</p>
+					<p>Oil Paint</p></li>
   				<li>
   					<div class="img-container">
-  						<img src="images/arted/smith_adam_2.jpg" class="vertical" alt=""/>
+  						<img src="images/ae/Kim_Brooke_1.jpg" class="vertical" alt=""/>
   					</div>
-  					<p><em>Monotype 2</em></p>
-					<p>18 in x 26 in</p>
-					<p>Ink and solvent on paper</p></li>
+  					<p><em>Depression</em></p>
+					<p>14in x 18in</p>
+					<p>Oil Paint</p></li>
 			</ul>
 			</div><!-- .student -->
 			
-			<div class="student" id="swiertz">
+			<div class="student" id="konczak">
 				<div class="student-name">
-					<h3><span class="student-first">Megan</span> Swiertz</h3>
+					<h3>Alexandra Konczak</h3>
 				</div><!-- .student-name -->
 				<ul class="bxslider">
 	  				<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/photo/swiertz_megan_1.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Konczak_Alexandra_1.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Untitled</em></p>
-	  					<p>24 in x 30 in</p>
-						<p>Photography</p></li>
+	  					<p><em>Progress...But Is It Really?</em></p>
+	  					<p>24in x 30in</p>
+						<p>Mixed Media</p></li>
 					<li>
 	  					<div class="img-container">
-	  						<img class="vertical" src="images/photo/swiertz_megan_2.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Konczak_Alexandra_2.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Untitled</em></p>
-	  					<p>24 in x 32 in</p>
-						<p>Photography</p></li>
+	  					<p><em>Anxiety</em></p>
+	  					<p>24in x 30in</p>
+						<p>Oil on Canvas</p></li>
 					<li>
 	  					<div class="img-container">
-	  						<img src="images/photo/swiertz_megan_3.jpg" alt=""/>
+	  						<img class="vertical" src="images/ae/Konczak_Alexandra_3.jpg" alt=""/>
 	  					</div>
-	  					<p><em>Untitled</em></p>
-	  					<p>24 x 36 in</p>
-						<p>Photography</p></li>
+	  					<p><em>Concealed, Longed for, and Gained</em></p>
+	  					<p>16in x 20in</p>
+						<p>Mixed Media</p></li>
 				</ul>
 			</div><!-- .student -->
 				
-		</div><!-- #gallery -->
+			</div><!-- #gallery -->
 		</div>
 	</div>
 		

@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	color: #fff;
+	margin: 0;
+	font-family: "Open Sans", "Helvetica", sans-serif;
+
+	background: url(../images/cover-background.gif) no-repeat top center,  url(../images/cover-background-bottom.png) no-repeat bottom center, #28272D;
+	background-size: 100% auto;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+section {
+	padding: 0 30px;
+}
+
+.hero{
+	padding-top: 130px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.bfalogo{
+	width: 80%;
+}
+
+h3 {
+	color: #b0b7c5;
+	font-style: italic;
+	font-size: 2em;
+	font-weight: 700;
+
+	margin-bottom: 30px;
+}
+
+.class-list h3{
+	color: #fff;
+}
+
+.class-list li{
+	color: #b0b7c5;
+	font-size: 1.1em;
+	line-height: 1.8;
+}
+
+p{
+	font-size: 1.3em;
+	line-height: 1.8;
+}
+
+.multiple{
+	margin-bottom: 40px;
+}
+
+hr {
+	margin: 80px 0 80px 0;
+	border: 1px solid #b0b7c5;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+
+.signage {
+	max-width: 600px;
+	margin-top: 40px;
+}
+
+.class-list li, .signage li {
+	flex: 1 0 200px;
+}
+
+.sign-name {
+	color: #b0b7c5;
+	font-weight: 700;
+}
+
+
+.title {
+	font-style: italic;
+}
+
+footer {
+	padding: 45px 0;
+	text-align: center;
+
+	margin-top: 80px;
+}
+
+footer p {
+	color: white;
+	font-size: .80em;
+	line-height: 1.6em;	
+}
+
+#footer-line {
+	border-top: 2px solid white;
+	margin: 25px 40%;
+}
