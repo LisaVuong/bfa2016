@@ -67,16 +67,6 @@ p, li {
 	width: 100%;
 }
 
-/* Clearfix */
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-
 /*--FULL NAV--*/
 #brand {
 	background:url(../images/bfa-logo.png) top center no-repeat; 
@@ -139,8 +129,6 @@ p, li {
 	position: fixed;
 	top: 0;
 }
-
-
 
 /*--MOBILE NAV--*/
 .hidden-lg {
@@ -225,7 +213,7 @@ nav li a {
 
 /*--- FOOTER ---*/
 footer {
-	background-color: #1E1816;
+	background-color: #28272D;
 	padding: 45px 0;
 	text-align: center;
 }
@@ -268,84 +256,14 @@ footer p {
 
 
 /*---HERO---*/
-.ae {
+.major-hero {
 	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
+	background-size: cover;
 	padding: 8em 0 6em;
 	text-align:center;
 	width: 100%;
 }
 
-.ah {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.gd {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	text-align:center;
-	width: 100%;
-}
-
-.id {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.me {
-	background:url(.../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.ce {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.nm {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.pa {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.ph {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
-
-.sc {
-	background:url(../images/cover-background.gif) top center no-repeat; 
-	background-size: 100% auto;
-	padding: 8em 0 6em;
-	text-align:center;
-	width: 100%;
-}
 
 
 #hero #major-id {
@@ -478,7 +396,7 @@ video{
 }
 
 .line-divider {
-	border-bottom: 2px solid #1B1947;
+	border-bottom: 2px solid #B0B7C5;
 	margin: 45px 15% 0;
 }
 
@@ -527,6 +445,7 @@ em {
 	font-size: .90em;
 	line-height: 1.4em;
 	text-align: center; 
+	color: #28272D;
 }
 
 .center {
@@ -539,7 +458,7 @@ em {
 }
 
 .essay-container .img-container {	
-	border-bottom: 2px solid #1B1947;
+	border-bottom: 2px solid #28272D;
 	left: 0;
 	right: 0;
 	padding: 45px 25px;
@@ -627,7 +546,7 @@ h3{
 	font-weight: 700;
 	font-size: 1em;
 	margin-bottom: 20px;
-	color: #536A80;
+	color: #28272D;
 }
 
 /*---MEDIA QUERIES---*/
@@ -838,101 +757,97 @@ nav a {
 
 
 #brand-sm {
-	height: 32px;
-	width: 100px;
-	margin-top: -42px;
-	position: fixed;
-	background:url(../images/bfa-logo.png) top center no-repeat;
-	background-size: 32px;
-	z-index: 2500;
-}
+		height: 32px;
+		width: 100px;
+		margin-top: -42px;
+		position: fixed;
+		background:url(../images/bfa-logo.png) top center no-repeat;
+		background-size: 32px;
+		z-index: 2500;
+	}
 }
 
 @media (max-width: 1149px) {
-#full-menu {
-	left: 13%;
-}
+	#full-menu {
+		left: 13%;
+	}
 
-#full-menu a:link{
-	text-decoration: none;
-	color: white;
-}
+	#full-menu a:link{
+		text-decoration: none;
+		color: white;
+	}
 
 }
 
 @media (min-width: 1150px) and (max-width: 1279px) {
-#full-menu {
-	left: 14%;
-}
+	#full-menu {
+		left: 14%;
+	}
 
-.essay-container .bx-pager {
-	visibility: hidden;
-}
+	.essay-container .bx-pager {
+		visibility: hidden;
+	}
 
-.img-container {
-	width: 100%;
-	height: 480px;
-}
+	.img-container {
+		width: 100%;
+		height: 480px;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
-.line-divider {
-	margin: 75px 35% 0;
-	color: #B0B7C5;
-}
+	.line-divider {
+		margin: 75px 35% 0;
+		color: #B0B7C5;
+	}
 
-#major-graduates {
-	padding: 90px 15% 0;
-}
+	#major-graduates {
+		padding: 90px 15% 0;
+	}
 
-#slide1{
-	padding: 8em 0;
-}
+	.bxslider  li  {
+		display: inline-block;
+		float: left;
+	}
 
-.bxslider  li  {
-	display: inline-block;
-	float: left;
-}
+	.student-name {
+		font-size: 2em;
+	}
 
-.student-name {
-	font-size: 2em;
-}
+	.img-container {
+		width: 100%;
+		height: 550px;
+	}
 
-.img-container {
-	width: 100%;
-	height: 550px;
-}
+	#menu{
+		margin: 8px 20px 0 0px;
+	}
 
-#menu{
-	margin: 8px 20px 0 0px;
-}
-
-nav #pull{
-	height: 58px;
-}
+	nav #pull{
+		height: 58px;
+	}
 }
 
 @media (min-width: 1281px) and (max-width: 1500px) {
-.img-container {
-	width: 100%;
-	height: 550px;
-}
+	.img-container {
+		width: 100%;
+		height: 550px;
+	}
 
-.essay-container .bxslider li p {
-	padding: 0;
-}
+	.essay-container .bxslider li p {
+		padding: 0;
+	}
 
-.essay-container .bxslider {
-	margin: 0 auto;
-	width: 950px;
-}
+	.essay-container .bxslider {
+		margin: 0 auto;
+		width: 950px;
+	}
 
-.essay-container .bxslider li p {
-	padding-right: 30px;
-}
-}
+	.essay-container .bxslider li p {
+		padding-right: 30px;
+	}
 
-.essay-container .bxslider .center li p{
-	text-align: center !important;
+	.essay-container .bxslider .center li p{
+		text-align: center !important;
+	}
 }
 
