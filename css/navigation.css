@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
 .nav-bar {
 	display: flex;
 	flex-wrap: wrap;
@@ -77,6 +78,10 @@
 		transform-origin: 100% 0;
 		transition: transform 0.3s, visibility 0s 0.3s;
 	}
+
+	#cd-nav li{
+		margin-bottom: 20px;
+	}
 	 
 	#cd-nav ul.is-visible {
 		visibility: visible;
@@ -94,7 +99,7 @@
 		border-radius: 3px;
 		padding: 5px 15px 5px 15px;
 		text-decoration: none;
-		font-family: "Open-sans";
+		font-family: "Open Sans";
 		background-color: rgba(43,39,41,.9);
 
 		/* image replacement */
