@@ -54,3 +54,50 @@
 	background-color: #28272D;
 	opacity: .9;
 }
+
+.cd-nav-trigger{
+	display: none;
+}
+
+@media only screen and (max-width: 650px) {
+	#cd-nav ul {
+		/* mobile first */
+		flex-direction: column;
+		position: fixed;
+		width: 100%;
+		background-color: rgba(43,39,41,.9);
+		/*max-width: 400px;*/
+		right: 0;
+		top: 0;
+		visibility: hidden;
+		overflow: hidden;
+		z-index: 1;
+
+		transform: scale(0);
+		transform-origin: 100% 0;
+		transition: transform 0.3s, visibility 0s 0.3s;
+	}
+	 
+	#cd-nav ul.is-visible {
+		visibility: visible;
+		transform: scale(1);
+		transition: transform 0.3s, visibility 0s 0s;
+	}
+	 
+	.cd-nav-trigger {
+		display: block;
+		position: fixed;
+		top: 15px;
+		right: 15px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 3px;
+		padding: 5px 15px 5px 15px;
+		text-decoration: none;
+		font-family: "Open-sans";
+		background-color: rgba(43,39,41,.9);
+
+		/* image replacement */
+		z-index: 100;
+	}
+}
