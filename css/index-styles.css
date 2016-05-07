@@ -26,7 +26,7 @@ body {
 	margin: 0;
 	font-family: "Open Sans", "Helvetica", sans-serif;
 
-	background: url(../images/cover-background.gif) no-repeat top center,  url(../images/cover-background-bottom.png) no-repeat bottom center, #28272D;
+	background: url(../images/cover-hero.gif) no-repeat top center,  url(../images/cover-background-bottom.png) no-repeat bottom center, #28272D;
 	background-size: 100% auto;
 }
 
